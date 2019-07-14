@@ -5,7 +5,7 @@
 
 Add to the end of the page, requires JQuery
 ```
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@0.0.3/webicons.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v0.0.3/webicons.js"></script>
 ```
 
 ## Icon ##

@@ -18,3 +18,7 @@ Add to the end of the page, requires JQuery
 ## Sources ##
 
 https://github.com/ionic-team/ionicons/tree/master/src/svg
+
+## Tools ##
+
+https://base64.guru/converter/encode/image/svg

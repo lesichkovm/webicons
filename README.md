@@ -1,4 +1,4 @@
-# webfont
+# Web Icons
 
 
 ## Installation ##

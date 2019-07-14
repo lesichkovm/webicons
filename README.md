@@ -10,6 +10,7 @@ Add to the end of the page, requires JQuery
 
 ## Icon ##
 
+Add data-icon attribute. The data-icon attribute supports the following format "iconset iconname".
 ```
 <img data-icon="ionicons ios-log-out" style="width:48px;height:48px;color:red;" />
 ```

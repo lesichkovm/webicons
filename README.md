@@ -11,7 +11,7 @@ Add to the end of the page, requires JQuery
 ## Icon ##
 
 ```
-<img data-icon="ionicons ios-log-out" data-color="red" style="width:48px;height:48px;" />
+<img data-icon="ionicons ios-log-out" style="width:48px;height:48px;color:red;" />
 ```
 
 ## Custom Iconset ##

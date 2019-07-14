@@ -14,6 +14,14 @@ Add to the end of the page, requires JQuery
 <img data-icon="ionicons ios-log-out" data-color="red" style="width:48px;height:48px;" />
 ```
 
+## Custom Iconset ##
+
+```
+var iconsets = iconsets || {};
+
+iconsets.myicons = iconsets.myicons || {};
+iconsets.myicons['myiconname'] = 'data:image/svg+xml;base64,MYICONASBASE64';
+```
 
 ## Sources ##
 

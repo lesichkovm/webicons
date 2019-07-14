@@ -9,6 +9,10 @@ $(function(){
       var src = $.trim($(this).data('icon'));
       var color = $.trim($(this).data('color'));
       var style = $(this).data('style');
+        
+      if (color == ''){
+          color = $(this).css('color');
+      }
       
       if (color == ''){
           color = "black";

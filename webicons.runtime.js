@@ -1,8 +1,5 @@
 var iconsets = iconsets || {};
 
-iconsets.web = iconsets.ionicons || {};
-iconsets.web['blank'] = 'data:image/svg+xml;base64,';
-
 $(function(){
     $('img[data-icon]').each(function () {
       var src = $.trim($(this).data('icon'));

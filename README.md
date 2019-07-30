@@ -1,14 +1,19 @@
 # Web Icons
 
+Icons done right
 
 ## Installation ##
 
-Add to the end of the page, requires JQuery
-```
-<!-- Webicons - Iconset - Ionicons -->
+Add to the end of the page, requires JQuery to be incuded on the page before this library
+
+- Step 1. Include the iconset you want
+
+```html
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.ionicons.js"></script>
 
-<!-- Webicons - Runtime -->
+- Step 2. Include the icon runtime
+
+```html
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.runtime.js"></script>
 ```
 

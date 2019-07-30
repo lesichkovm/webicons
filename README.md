@@ -10,6 +10,7 @@ Add to the end of the page, requires JQuery to be incuded on the page before thi
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.ionicons.js"></script>
+```
 
 - Step 2. Include the icon runtime
 

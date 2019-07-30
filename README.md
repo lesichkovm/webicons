@@ -5,7 +5,11 @@
 
 Add to the end of the page, requires JQuery
 ```
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v0.0.3/webicons.js"></script>
+<!-- Webicons - Iconset - Ionicons -->
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.ionicons.js"></script>
+
+<!-- Webicons - Runtime -->
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.runtime.js"></script>
 ```
 
 ## Icon ##

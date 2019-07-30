@@ -24,6 +24,10 @@ iconsets.myicons = iconsets.myicons || {};
 iconsets.myicons['myiconname'] = 'data:image/svg+xml;base64,MYICONASBASE64';
 ```
 
+## Iconsets ##
+
+https://ionicons.com/
+
 ## Sources ##
 
 https://github.com/ionic-team/ionicons/tree/master/src/svg

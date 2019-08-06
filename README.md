@@ -9,14 +9,14 @@ Add to the end of the page, requires JQuery to be incuded on the page before thi
 - Step 1. Include the iconset you want
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.ionicons.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.fontawesome.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.2.0/webicons.ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.2.0/webicons.fontawesome.js"></script>
 ```
 
 - Step 2. Include the icon runtime
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.runtime.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.2.0/webicons.runtime.js"></script>
 ```
 
 ## Icon ##

@@ -1,6 +1,6 @@
 # Web Icons
 
-Icons done right
+Icons done right. Example: https://rawgit.com/lesichkovm/webicons/master/example/icons.html
 
 ## Installation ##
 

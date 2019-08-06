@@ -37,10 +37,12 @@ iconsets.myicons['myiconname'] = 'data:image/svg+xml;base64,MYICONASBASE64';
 ## Iconsets ##
 
 https://ionicons.com/
+https://www.s-ings.com/typicons/
 
 ## Sources ##
 
 https://github.com/ionic-team/ionicons/tree/master/src/svg
+https://github.com/stephenhutchings/typicons.font
 
 ## Tools ##
 

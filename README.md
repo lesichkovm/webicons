@@ -10,6 +10,7 @@ Add to the end of the page, requires JQuery to be incuded on the page before thi
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.0.0/webicons.fontawesome.js"></script>
 ```
 
 - Step 2. Include the icon runtime
@@ -23,6 +24,7 @@ Add to the end of the page, requires JQuery to be incuded on the page before thi
 Add data-icon attribute. The data-icon attribute supports the following format "iconset iconname".
 ```
 <img data-icon="ionicons ios-log-out" style="width:48px;height:48px;color:red;" />
+<img data-icon="fontawesome fas-card" style="width:48px;height:48px;color:red;" />
 ```
 
 ## Custom Iconset ##
@@ -37,11 +39,13 @@ iconsets.myicons['myiconname'] = 'data:image/svg+xml;base64,MYICONASBASE64';
 ## Iconsets ##
 
 https://ionicons.com/
+https://fontawesome.com/
 https://www.s-ings.com/typicons/
 
 ## Sources ##
 
 https://github.com/ionic-team/ionicons/tree/master/src/svg
+https://fontawesome.com/
 https://github.com/stephenhutchings/typicons.font
 
 ## Tools ##

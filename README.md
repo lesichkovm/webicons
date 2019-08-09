@@ -49,6 +49,7 @@ https://www.s-ings.com/typicons/
 https://github.com/ionic-team/ionicons/tree/master/src/svg
 https://fontawesome.com/
 https://github.com/stephenhutchings/typicons.font
+https://github.com/atisawd/boxicons/tree/master/svg/
 
 ## Tools ##
 

@@ -3,12 +3,16 @@
 Icons done right.
 
 ## Versions ##
-Fontawesome 5.12.1  Example: https://rawgit.com/lesichkovm/webicons/master/example/fontawesome.html
+Fontawesome 5.12.1  
+   - Example: https://rawgit.com/lesichkovm/webicons/master/example/fontawesome.html
+   
 Flag Icons  3.4.6   
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/flags-1x1.html
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/flags-4x3.html
+
 Ionicons    5.0.0   
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/icons.html
+
 Typicons    2.0.7   
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/icons.html
 

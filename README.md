@@ -5,7 +5,7 @@ Icons done right.
 ## Versions ##
 
 Boxicons 2.0.5  
-   - Example: https://rawgit.com/lesichkovm/webicons/master/example/boxicon.html
+   - Example: https://rawgit.com/lesichkovm/webicons/master/example/boxicons.html
    
 Flag Icons  3.4.6   
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/flags-1x1.html

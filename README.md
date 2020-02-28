@@ -23,8 +23,8 @@ Add to the end of the page, requires JQuery to be incuded on the page before thi
 - Step 1. Include only the iconset(s) you want
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.flags-1x1"></script>
-<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.flags-4x3.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.flags_1x1"></script>
+<script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.flags_4x3.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.fontawesome.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/lesichkovm/webicons@v1.5.0/webicons.typicons.js"></script>

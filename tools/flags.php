@@ -1,16 +1,19 @@
 <?php
+
 require_once '../vendor/autoload.php';
 
-$folderPaths = [];
-$folderPaths['fab'] = '/home/sinevia/Downloads/fontawesome-free-5.12.1-web/svgs/brands';
-$folderPaths['far'] = '/home/sinevia/Downloads/fontawesome-free-5.12.1-web/svgs/regular';
-$folderPaths['fas'] = '/home/sinevia/Downloads/fontawesome-free-5.12.1-web/svgs/solid';
-$stub = "var iconsets = iconsets || {}; iconsets.fontawesome = iconsets.fontawesome || {};";
+$folderPath = '/home/sinevia/Downloads/flag-icon-css-master';
+$stub = "var iconsets = iconsets || {}; iconsets.flags = iconsets.flags || {};";
 
-$filepath = __DIR__ . '/fa.js';
-file_put_contents($filepath, $stub . "\n");
+$folderPaths = [];
+$folderPaths['1x1'] = '/home/sinevia/Downloads/flag-icon-css-master/flags/1x1';
+$folderPaths['4x3'] = '/home/sinevia/Downloads/flag-icon-css-master/flags/4x3';
+
 
 foreach ($folderPaths as $key => $folderPath) {
+    $filepath = __DIR__ . '/flags_' . $key . '.js';
+    file_put_contents($filepath, $stub . "\n");
+
     $files = \Sinevia\FileUtils::directoryListFiles($folderPath);
     $data = [];
     foreach ($files as $file) {
@@ -29,9 +32,8 @@ foreach ($folderPaths as $key => $folderPath) {
     // DEBUG: var_dump($data);
     $jsString = '';
     foreach ($data as $icon => $data) {
-        $jsString .= "iconsets.fontawesome['" . $key . "-" . $icon . "'] = '$data';\n";
+        $jsString .= "iconsets.flags['" . $icon . "'] = '$data';\n";
     }
     // echo $jsString;
     file_put_contents($filepath, $jsString . "\n", FILE_APPEND);
 }
-

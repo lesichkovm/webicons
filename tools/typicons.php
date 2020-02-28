@@ -1,7 +1,7 @@
 <?php
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
-$folderPath = 'C:\Users\MILAN\Downloads\typicons.font-master/src/svg';
+$folderPath = '/home/sinevia/Downloads/typicons.font-master/src/svg';
 $stub = "var iconsets = iconsets || {}; iconsets.typicons = iconsets.typicons || {};";
 
 $filepath = __DIR__ . '/ty.js';

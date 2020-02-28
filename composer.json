@@ -1,0 +1,13 @@
+{
+    "name": "vendor/web-icons",
+    "description": "Description of project WebIcons.",
+    "authors": [
+        {
+            "name": "sinevia",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "sinevia/php-library-utils": "v3.2.0"
+    }
+}

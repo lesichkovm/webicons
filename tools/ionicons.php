@@ -2,10 +2,14 @@
 
 require_once '../vendor/autoload.php';
 
-$folderPath = 'C:\Users\MILAN\Downloads\ionicons-master\src\svg';
+$folderPath = '/home/sinevia/Downloads/ionicons-master/src/svg';
+$stub = "var iconsets = iconsets || {}; iconsets.ionicons = iconsets.ionicons || {};";
+
+$filepath = __DIR__ . '/webicons.ionicons.js';
+file_put_contents($filepath, $stub . "\n");
+
 
 $files = \Sinevia\FileUtils::directoryListFiles($folderPath);
-
 $data = [];
 
 foreach ($files as $file) {
@@ -33,4 +37,6 @@ foreach ($data as $icon=>$data) {
     $jsString .= "iconsets.ionicons['$icon'] = '$data';\n";
 }
 
-echo $jsString;
+// echo $jsString;
+
+file_put_contents($filepath, $jsString . "\n", FILE_APPEND);

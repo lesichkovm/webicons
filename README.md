@@ -18,7 +18,7 @@ Ionicons    5.0.0
    - Example: https://rawgit.com/lesichkovm/webicons/master/example/ionicons.html
 
 Typicons    2.0.7   
-   - Example: https://rawgit.com/lesichkovm/webicons/master/example/icons.html
+   - Example: https://rawgit.com/lesichkovm/webicons/master/example/typicons.html
 
 ## Installation ##
 

@@ -90,3 +90,8 @@ https://github.com/lipis/flag-icon-css
 ## Tools ##
 
 https://base64.guru/converter/encode/image/svg
+
+
+## Other Notable Iconsets ##
+
+https://feathericons.com/ (MIT License)
